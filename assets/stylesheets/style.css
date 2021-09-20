@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+body {
+  background-image: url('../background.png');
+  background-size: cover;
+}
+
+img, button {
+  width: 50px;
+  display: block;
+  float: right;
+  clear: right;
+  margin: 20px 30px;
+}
+
+img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+button {
+  font-family: 'Russo One';
+  font-size: 12px;
+  border: none;
+  border-bottom: 10px solid grey;
+  background: white;
+  height: 50px;
+  border-radius: 15px;
+}
+
+button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+button:focus {
+  outline-style: none;
+  border-bottom: none;
+}
+
+#game-canvas {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid white;
+  border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 30% stretch;
+}
