@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 
+h2 {
+ color: white; 
+ font-family: 'Russo One';
+ font-size: 12px;
+}
+
 body {
   background-image: url('../background.png');
   background-size: cover;
